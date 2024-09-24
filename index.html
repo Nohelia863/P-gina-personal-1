@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nohelia - Página Personal</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Sección Inicio */
+#inicio {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#inicio h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    font-size: 1.2rem;
+    width: 70%;
+    margin: auto;
+}
+
+/* Sección Bibliografía */
+#bibliografia {
+    background-color: #1abc9c;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#bibliografia h2 {
+    font-size: 2.5rem;
+}
+
+#bibliografia p {
+    font-size: 1.1rem;
+    width: 70%;
+    margin: auto;
+}
+
+/* Sección Habilidades */
+#habilidades {
+    background-color: #fab34f;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#habilidades h2 {
+    font-size: 2.5rem;
+}
+
+#habilidades ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#habilidades li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+/* Sección Proyectos */
+#proyectos {
+    background-color: #9b59b6;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#proyectos h2 {
+    font-size: 2.5rem;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-box {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.project-box h3 {
+    margin-top: 0;
+}
+
+.project-box p {
+    font-size: 1rem;
+}
+
+/* Sección Contacto */
+#contacto {
+    background-color: #e74c3c;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contacto h2 {
+    font-size: 2.5rem;
+}
+
+#contacto ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contacto li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+#contacto a {
+    color: white;
+    text-decoration: underline;
+}
+
+#contacto a:hover {
+    color: #3498db;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Encabezado con el menú de navegación -->
+    <header>
+        <div class="logo">
+            <h1>Nohelia Quispe Meza</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#bibliografia">Bibliografía</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="hero">
+        <h2>Bienvenida a mi página personal</h2>
+        <p>¡Hola! Soy Nohelia, una apasionada por la tecnología, la innovación y el aprendizaje continuo. Esta página te permitirá conocerme mejor.</p>
+
+        <img src="logo 2.jpg" alt="Logo de Nohelia">
+
+
+
+    </section>
+
+    <!-- Sección de Bibliografía -->
+    <section id="bibliografia">
+        <h2>Bibliografía</h2>
+        <p>Soy una profesional dedicada con experiencia en [área de especialización] y formación en [detalles de formación]. A lo largo de mi carrera, he trabajado en diversos proyectos que han fortalecido mis habilidades técnicas y mi pasión por el crecimiento continuo.</p>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Desarrollo web (HTML, CSS, JavaScript)</li>
+            <li>Gestión de proyectos</li>
+            <li>Análisis de datos</li>
+            <li>Trabajo en equipo y liderazgo</li>
+            <li>Resolución de problemas</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="project-container">
+            <div class="project-box">
+                <h3>Proyecto 1</h3>
+                <p>Descripción de tu primer proyecto. Incluye los retos, logros y tecnologías utilizadas.</p>
+            </div>
+            <div class="project-box">
+                <h3>Proyecto 2</h3>
+                <p>Descripción de tu segundo proyecto. Incluye las lecciones aprendidas y el impacto del proyecto.</p>
+            </div>
+            <div class="project-box">
+                <h3>Proyecto 3</h3>
+                <p>Descripción de tu tercer proyecto. Destaca tus aportes y los resultados obtenidos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de los siguientes medios:</p>
+        <ul>
+            <li>Email: nohelia@ejemplo.com</li>
+            <li>Teléfono: +51 999 999 999</li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/nohelia" target="_blank">linkedin.com/in/nohelia</a></li>
+        </ul>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Nohelia. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
